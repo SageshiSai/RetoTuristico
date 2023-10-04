@@ -3,7 +3,7 @@ multilineString =
       '<nav class="navbar-container container">'+
         '<a href="index.html" class="home-link">'+
           '<div class="navbar-logo">'+
-            '<img class="fotoNavBar " src="img/logo.png" alt="">'+
+          '<img class="fotoNavBar " src="img/logo.png" alt="">'+
           '</div>'+
           'PIZIA'+
         '</a>'+
