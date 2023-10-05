@@ -14,7 +14,6 @@ multilineString =
                 '<div class="navbar-logo">'+
                 '<img src="img/logo.png">'+
                 '</div>'+
-                'Website Name'+
               '</a>'+
               '<li style="margin-right: 100px" class="nav-item">'+
                 '<a class="nav-link active" aria-current="page" href="#">Reclamaciones</a>'+
