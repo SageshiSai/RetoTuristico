@@ -17,10 +17,14 @@ align-items: center;
 .navbar-logo {
   background-color: black;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 70px;
   margin-right: 0.5em;
 }
 .navbar-logo img {
-  width: 30px;
+  width: 70px;
+}
+li :hover{
+  font-weight: bold;
+  transition: font-weight 0.1s ease;
 }
