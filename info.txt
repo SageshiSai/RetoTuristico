@@ -1,1 +1,23 @@
-sdadasds
+BRIEFING:
+
+Sobre el proyecto
+
+"PIZIA" es una página web dedicada a resaltar las maravillas de Pisa y sus alrededores. 
+La plataforma se centra en ofrecer información detallada sobre los puntos turísticos destacados, incluyendo la famosa Torre de Pisa y 
+otros lugares de interés cercanos. Además, la página permitirá a los usuarios hacer reservas para tours, actividades y alojamientos, 
+proporcionando así una experiencia turística completa y sin complicaciones.
+
+Además, también requieren mejorar su imagen visual. 
+Mediante un proceso de branding y naming porque necesitan crear una nueva imagen corporativa, es decir, se desarrollaran nombre del negocio, 
+logos, colores…
+
+Publico objetivo
+
+1. Viajeros Aventureros: Personas que buscan experiencias únicas y auténticas durante sus viajes, interesadas en explorar la belleza de Pisa y sus alrededores.
+2. Familias: Padres que viajan con sus hijos y buscan actividades educativas y divertidas en Pisa.
+3. Viajeros Culturales: Individuos interesados en la historia, la arquitectura y la cultura italiana.
+4. Planificadores de Viajes: Personas que están organizando un viaje a Italia y buscan una guía confiable para planificar su visita a Pisa.
+5. Exploradores Gastronómicos: Personas interesadas en la rica tradición culinaria de la región, buscando recomendaciones de restaurantes y especialidades locales.
+
+Este proyecto tiene como objetivo proporcionar a estos grupos de usuarios una experiencia turística inolvidable, ayudándoles a descubrir, explorar y disfrutar lo mejor que Pisa tiene para ofrecer.
+
