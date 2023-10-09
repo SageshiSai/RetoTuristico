@@ -16,7 +16,7 @@ multilineString =
                 '</div>'+
               '</a>'+
               '<li style="margin-right: 100px" class="nav-item">'+
-                '<a class="nav-link active" aria-current="page" href="#">Reclamaciones</a>'+
+                '<a class="nav-link active" aria-current="page" href="erreklamazioa.html">Reclamaciones</a>'+
               '</li>'+
             '</div>'+
           '</nav>'+   
