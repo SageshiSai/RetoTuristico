@@ -108,3 +108,33 @@ li :hover{
   font-weight: bold;
   transition: font-weight 0.1s ease;
 }
+
+.divcards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*INDEX MEDIA QUERY*/
+
+@media only screen and (max-width:1200px) {
+  .divcards {
+    display: flex;
+   flex-wrap: wrap;
+   height: auto;
+  }
+  .card {
+    margin: 5px;
+  }
+}
+@media only screen and (max-width:500px) {
+  .divcards{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+  .card {
+    margin: 8px;
+  }
+}
