@@ -2,7 +2,7 @@ multilineString =
 '<footer>'+
 '<div class="row h-100">'+
     '<div class="col-md-4 d-flex align-items-center justify-content-center">'+
-        '<img src="../img/logo.png" alt="" />'+
+    '<a href="index.html"><img src="../img/logo.png" alt="" /></a>'+
 '</div>'+
 '<div class="col-md-4 d-flex align-items-center justify-content-center">'+
     '<nav class="navbar">'+
