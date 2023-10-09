@@ -212,6 +212,7 @@ li :hover{
   border-radius: 50px;
   background-color: hsl(255deg 50% 40%);
   border: solid 4px hsl(50deg 100% 50%);
+  text-align: center;
   font-family: inherit;
  }
  
@@ -226,6 +227,7 @@ li :hover{
   gap: 15px;
   padding: 15px 20px;
   border-radius: 50px;
+  text-align: center;
   font-size: 17px;
   font-weight: 500;
   text-transform: uppercase;
@@ -233,6 +235,7 @@ li :hover{
  }
  
  .opciones .hover-btn {
+  text-align: center  ;
   position: absolute;
   inset: 0;
   background-color: hsl(255deg 50% 49%);
