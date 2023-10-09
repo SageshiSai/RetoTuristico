@@ -10,7 +10,7 @@ multilineString =
                     '<a class="nav-link active" aria-current="page" href="#">Home</a>'+
                 '</li>'+
               '</ul>-->'+
-              '<a href="/" class="home-link">'+
+              '<a href="#" class="home-link">'+
                 '<div class="navbar-logo">'+
                 '<img src="img/logo.png">'+
                 '</div>'+
