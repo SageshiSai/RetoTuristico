@@ -2,7 +2,7 @@ multilineString =
 '<footer>'+
 '<div class="row h-100">'+
     '<div class="col-md-4 d-flex align-items-center justify-content-center">'+
-    '<a href="index.html"><img src="../img/logo.png" alt="" /></a>'+
+    '<a href="index.html"><img src="img/logo.png" alt="" /></a>'+
 '</div>'+
 '<div class="col-md-4 d-flex align-items-center justify-content-center">'+
     '<nav class="navbar">'+
@@ -10,13 +10,13 @@ multilineString =
     '<div class="container-fluid">'+
         '<ul class="navbar-nav">'+
         '<li class="nav-item">'+
-            '<a class="nav-link text-white" href="#">INICIO</a>'+
+            '<a class="nav-link text-white" href="index.html">INICIO</a>'+
         ' </li>'+
             '<li class="nav-item">'+
-            '<a class="nav-link text-white" href="#">COMPRAS</a>'+
+            '<a class="nav-link text-white" href="compras.html">COMPRAS</a>'+
             '</li>'+
             ' <li class="nav-item">'+
-            '<a class="nav-link text-white" href="#">RECLAMACIONES</a>'+
+            '<a class="nav-link text-white" href="erreklamazioa.html">RECLAMACIONES</a>'+
             '</li>'+
         '</ul>'+
         '</div>'+
