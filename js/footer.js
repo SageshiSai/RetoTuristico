@@ -1,15 +1,15 @@
 multilineString = 
 '<footer>'+
-'<div class="row h-100 me-0">'+
-    '<div class="col-md-4 d-flex align-items-center justify-content-center">'+
+'<div class="row me-0 h-100">'+
+    '<div class="col-sm-12 col-md-4 col-sm-12 d-flex align-items-center justify-content-center">'+
     '<a href="index.html"><img src="img/logo.png" alt="" /></a>'+
 '</div>'+
-'<div class="col-md-4 d-flex align-items-center justify-content-center">'+
+'<div class="col-sm-12 d-flex align-items-center justify-content-center col-md-4 " id="">'+
     '<nav class="navbar">'+
     '<hr class="linea-horizontal my-1">'+
-    '<div class="container-fluid">'+
+    '<div class="container-fluid d-flex justify-content-center">'+
         '<ul class="navbar-nav">'+
-        '<li class="nav-item">'+
+        '<li class="nav-item ">'+
             '<a class="nav-link text-white" href="index.html">INICIO</a>'+
         ' </li>'+
             '<li class="nav-item">'+
@@ -22,7 +22,7 @@ multilineString =
         '</div>'+
     '</nav>'+
 '</div>'+
-'<div class="col-md-4 d-flex align-items-center justify-content-center">'+
+'<div class="col-sm-12 col-md-4 d-flex align-items-center justify-content-center">'+
     '<div class="containerr">'+
         '<button><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" id="Layer_21" height="24" data-name="Layer 21"><title></title><path d="M16.75,9H13.5V7a1,1,0,0,1,1-1h2V3H14a4,4,0,0,0-4,4V9H8v3h2v9h3.5V12H16Z"></path></svg></button>'+
         '<button><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></button>'+
