@@ -5,15 +5,18 @@
   height: 100px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   background-color: white;
-  
+
 }
-.home-link, .navbar-link {
-color: var(--navbar-text-color);
-text-decoration: none;
-display: flex;
-font-weight: 400;
-align-items: center;
+
+.home-link,
+.navbar-link {
+  color: var(--navbar-text-color);
+  text-decoration: none;
+  display: flex;
+  font-weight: 400;
+  align-items: center;
 }
+
 .navbar-logo {
   background-color: black;
   border-radius: 50%;
@@ -21,13 +24,16 @@ align-items: center;
   height: 70px;
   margin-right: 0.5em;
 }
+
 .navbar-logo img {
   width: 70px;
 }
-li :hover{
+
+li :hover {
   font-weight: bold;
   transition: font-weight 0.1s ease;
 }
+
 /* FOOTER STYLE */
 /* CARDS STYLE0 */
 
@@ -97,14 +103,15 @@ li :hover{
   line-height: 1.4;
 }
 
-.card img{
+.card img {
   height: 400px;
 }
 
-.navbar-logo img{
+.navbar-logo img {
   width: 70px;
 }
-li :hover{
+
+li :hover {
   font-weight: bold;
   transition: font-weight 0.1s ease;
 }
@@ -120,20 +127,23 @@ li :hover{
 @media only screen and (max-width:1200px) {
   .divcards {
     display: flex;
-   flex-wrap: wrap;
-   height: auto;
+    flex-wrap: wrap;
+    height: auto;
   }
+
   .card {
     margin: 5px;
   }
 }
+
 @media only screen and (max-width:500px) {
-  .divcards{
+  .divcards {
     display: flex;
     flex-direction: column;
     width: auto;
     height: auto;
   }
+
   .card {
     margin: 8px;
   }
@@ -167,7 +177,7 @@ li :hover{
   flex-direction: column;
   text-align: center;
   height: 400px;
-  width: 400px; 
+  width: 400px;
   background-color: white;
   color: white;
   cursor: pointer;
@@ -188,7 +198,7 @@ li :hover{
   transform: scale(1.1, 1.1);
 }
 
-.opciones .cards:hover > .card:not(:hover) {
+.opciones .cards:hover>.card:not(:hover) {
   filter: blur(10px);
   transform: scale(0.9, 0.9);
 }
@@ -204,10 +214,11 @@ li :hover{
   border: solid 4px hsl(0, 0%, 63%);
   text-align: center;
   font-family: inherit;
-  
- }
- 
- .opciones .default-btn,.hover-btn {
+
+}
+
+.opciones .default-btn,
+.hover-btn {
   background-color: hsl(0, 0%, 0%);
   display: -webkit-box;
   display: -moz-box;
@@ -223,284 +234,290 @@ li :hover{
   font-weight: 500;
   text-transform: uppercase;
   transition: all .3s ease;
- }
- 
- .opciones .hover-btn {
-  text-align: center  ;
+}
+
+.opciones .hover-btn {
+  text-align: center;
   position: absolute;
   inset: 0;
   background-color: hsl(0, 0%, 0%);
-  transform: translate(0%,100%);
- }
- 
- .opciones .default-btn span {
+  transform: translate(0%, 100%);
+}
+
+.opciones .default-btn span {
   color: hsl(0, 0%, 100%);
- }
- 
- .opciones .hover-btn span {
+}
+
+.opciones .hover-btn span {
   color: hsl(0, 0%, 100%);
- }
- 
- .opciones button:hover .default-btn {
-  transform: translate(0%,-100%);
- }
- 
- .opciones button:hover .hover-btn {
-  transform: translate(0%,0%);
- }
-   
-  /*FOOTER STYLE*/
-  
-  footer{
-    height: 350px;
-    background-color: #333;
-  }
-  footer div img {
-    width: 200px;
-  }
-  
-  .linea-horizontal {
-    border-top: 1px solid rgb(255, 255, 255);
-    width: 300px;
-    translate: 26%;
-  }
-  
-  .bajo {
-    background-color: #333;
-    height: 50px;
-  }
-  
-  .containerr {
-    position: relative;
-    width: 250px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .containerr button {
-    width: 50px;
-    height: 50px;
-    border: none;
-    background-color: #313638;
-    transition: 0.3s;
-    cursor: pointer;
-  }
-  
-  .icon {
-    width: 26px;
-    height: 26px;
-    fill: #fff;
-  }
-  
-  .containerr button:nth-child(1):hover {
-    background-color: #2753a7;
-  }
-  
-  .containerr button:nth-child(2):hover {
-    background-color: #cd242b;
-  }
-  
-  .containerr button:nth-child(3):hover {
-    background-color: #55acee;
-  }
-  
-  .containerr button:nth-child(4):hover {
-    background-color: #0274b3;
-  }
-  
-  .title {
-    color: gray;
-    font-weight: 700;
-    font-size: 17px;
-    position: absolute;
-    top: -35px;
-    left: 0;
-  }
+}
 
-  /*compras style*/
+.opciones button:hover .default-btn {
+  transform: translate(0%, -100%);
+}
 
-  .compras {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    display: none;
-  }
-  .compras form{
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .descuentoPrecio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-  }
-  
-  #descuento {
-    text-align: center;
-    gap: 100px;
-  }
-  
-  .inputGroup {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 1em 0 1em 0;
-    max-width: 190px;
-    position: relative;
-  }
-  
-  .inputGroup input {
-    font-size: 100%;
-    padding: 0.8em;
-    outline: none;
-    border: 2px solid rgb(200, 200, 200);
-    background-color: transparent;
-    border-radius: 20px;
-    width: 100%;
-  }
-  
-  .inputGroup label {
-    font-size: 100%;
-    position: absolute;
-    left: 0;
-    padding: 0.8em;
-    margin-left: 0.5em;
-    pointer-events: none;
-    transition: all 0.3s ease;
-    color: rgb(100, 100, 100);
-  }
-  
-  .inputGroup :is(input:focus, input:valid)~label {
-    transform: translateY(-50%) scale(.9);
-    margin: 0em;
-    margin-left: 1.3em;
-    padding: 0.4em;
-    background-color: #e8e8e8;
-  }
-  
-  .inputGroup :is(input:focus, input:valid) {
-    border-color: rgb(150, 150, 200);
-  }
-  
-  .precioTotal {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
-    padding: 5px;
-    display: none;
-  }
-  
-  .button {
-    --width: 100px;
-    --height: 35px;
-    --tooltip-height: 35px;
-    --tooltip-width: 90px;
-    --gap-between-tooltip-to-button: 18px;
-    --button-color: #222;
-    --tooltip-color: #fff;
-    width: var(--width);
-    height: var(--height);
-    background: var(--button-color);
-    position: relative;
-    text-align: center;
-    border-radius: 0.45em;
-    font-family: "Arial";
-    transition: background 0.3s;
-  }
-  
-  .button::before {
-    position: absolute;
-    content: attr(data-tooltip);
-    width: var(--tooltip-width);
-    height: var(--tooltip-height);
-    background-color: #555;
-    font-size: 0.9rem;
-    color: #fff;
-    border-radius: .25em;
-    line-height: var(--tooltip-height);
-    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
-    left: calc(50% - var(--tooltip-width) / 2);
-  }
-  
-  .button::after {
-    position: absolute;
-    content: '';
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-top-color: #555;
-    left: calc(50% - 10px);
-    bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
-  }
-  
-  .button::after,.button::before {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.5s;
-  }
-  
-  .text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .button-wrapper,.text,.icon {
-    overflow: hidden;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    color: #fff;
-  }
-  
-  .text {
-    top: 0
-  }
-  
-  .text,.icon {
-    transition: top 0.5s;
-  }
-  
-  .icon {
-    color: #fff;
-    top: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .icon svg {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .button:hover {
-    background: #222;
-  }
-  
-  .button:hover .text {
-    top: -100%;
-  }
-  
-  .button:hover .icon {
-    top: 0;
-  }
-  
-  .button:hover:before,.button:hover:after {
-    opacity: 1;
-    visibility: visible;
-  }
-  
-  .button:hover:after {
-    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
-  }
-  
-  .button:hover:before {
-    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
-  }
+.opciones button:hover .hover-btn {
+  transform: translate(0%, 0%);
+}
 
+/*FOOTER STYLE*/
+
+footer {
+  height: 350px;
+  background-color: #333;
+}
+
+footer div img {
+  width: 200px;
+}
+
+.linea-horizontal {
+  border-top: 1px solid rgb(255, 255, 255);
+  width: 300px;
+  translate: 26%;
+}
+
+.bajo {
+  background-color: #333;
+  height: 50px;
+}
+
+.containerr {
+  position: relative;
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.containerr button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #313638;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+}
+
+.containerr button:nth-child(1):hover {
+  background-color: #2753a7;
+}
+
+.containerr button:nth-child(2):hover {
+  background-color: #cd242b;
+}
+
+.containerr button:nth-child(3):hover {
+  background-color: #55acee;
+}
+
+.containerr button:nth-child(4):hover {
+  background-color: #0274b3;
+}
+
+.title {
+  color: gray;
+  font-weight: 700;
+  font-size: 17px;
+  position: absolute;
+  top: -35px;
+  left: 0;
+}
+
+/*compras style*/
+#erosketak{
+  display: none;
+}
+.compras {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.compras form {
+  text-align: center;
+  padding: 10px;
+}
+
+.descuentoPrecio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+#descuento {
+  text-align: center;
+  gap: 100px;
+}
+
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1em 0 1em 0;
+  max-width: 190px;
+  position: relative;
+}
+
+.inputGroup input {
+  font-size: 100%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.inputGroup label {
+  font-size: 100%;
+  position: absolute;
+  left: 0;
+  padding: 0.8em;
+  margin-left: 0.5em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: rgb(100, 100, 100);
+}
+
+.inputGroup :is(input:focus, input:valid)~label {
+  transform: translateY(-50%) scale(.9);
+  margin: 0em;
+  margin-left: 1.3em;
+  padding: 0.4em;
+  background-color: #e8e8e8;
+}
+
+.inputGroup :is(input:focus, input:valid) {
+  border-color: rgb(150, 150, 200);
+}
+
+.precioTotal {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.button {
+  --width: 100px;
+  --height: 35px;
+  --tooltip-height: 35px;
+  --tooltip-width: 90px;
+  --gap-between-tooltip-to-button: 18px;
+  --button-color: #222;
+  --tooltip-color: #fff;
+  width: var(--width);
+  height: var(--height);
+  background: var(--button-color);
+  position: relative;
+  text-align: center;
+  border-radius: 0.45em;
+  font-family: "Arial";
+  transition: background 0.3s;
+}
+
+.button::before {
+  position: absolute;
+  content: attr(data-tooltip);
+  width: var(--tooltip-width);
+  height: var(--tooltip-height);
+  background-color: #555;
+  font-size: 0.9rem;
+  color: #fff;
+  border-radius: .25em;
+  line-height: var(--tooltip-height);
+  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+  left: calc(50% - var(--tooltip-width) / 2);
+}
+
+.button::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #555;
+  left: calc(50% - 10px);
+  bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
+}
+
+.button::after,
+.button::before {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-wrapper,
+.text,
+.icon {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  color: #fff;
+}
+
+.text {
+  top: 0
+}
+
+.text,
+.icon {
+  transition: top 0.5s;
+}
+
+.icon {
+  color: #fff;
+  top: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.button:hover {
+  background: #222;
+}
+
+.button:hover .text {
+  top: -100%;
+}
+
+.button:hover .icon {
+  top: 0;
+}
+
+.button:hover:before,
+.button:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.button:hover:after {
+  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
+}
+
+.button:hover:before {
+  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
+}
