@@ -1,6 +1,6 @@
 multilineString = 
 '<footer>'+
-'<div class="row h-100 w-100">'+
+'<div class="row h-100 me-0">'+
     '<div class="col-md-4 d-flex align-items-center justify-content-center">'+
     '<a href="index.html"><img src="img/logo.png" alt="" /></a>'+
 '</div>'+
