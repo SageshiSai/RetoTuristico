@@ -46,7 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: auto;
     min-height: 350px;
     
     flex-direction: column;
@@ -57,7 +57,9 @@
           -16px -16px 32px #fefefe;
     border-radius: 8px;
   }
-  
+  .textarea{
+    height: 100px;
+  }
   .inputBox,
   .inputBox1 {
     position: relative;
