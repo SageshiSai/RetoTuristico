@@ -34,7 +34,7 @@ multilineString =
 
 '</div>'+
 '<div class="bajo col-md-12">'+
-    '<hr class="linea-horizontal w-100 m-0">'+
+    '<hr class="linea-horizontal2 w-100 m-0">'+
     '<p class="d-flex text-white justify-content-center">Proyecto de clase hecho con mucho amor y cariño ❤ por Kaiet, Aitor, Kevin y Aimar.R</p>'+
 '</div>'+
 
