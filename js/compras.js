@@ -10,6 +10,7 @@ document.getElementById("entkids").addEventListener("keyup", calcularprecio);
 
 function erakutsi() {
     document.getElementById("erosketak").style.display = "block";
+    document.getElementById("erosketak").scrollIntoView({behavior: "smooth"});
 }
 
 function calcularprecio() {
