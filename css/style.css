@@ -276,6 +276,9 @@ footer div img {
   width: 300px;
   translate: 26%;
 }
+.linea-horizontal2 {
+  border-top: 1px solid rgb(255, 255, 255);
+}
 
 .bajo {
   background-color: #333;
