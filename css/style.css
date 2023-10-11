@@ -521,3 +521,34 @@ footer div img {
 .button:hover:before {
   bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
 }
+
+
+@media only screen and (max-width:1200px) and (min-width:842px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+  }
+
+  .opciones .cards .card {
+    margin:5px;
+  }
+}
+
+@media only screen and (max-width:843px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    gap: 0px;
+    
+  }
+
+  .opciones .cards .card{
+    width: 100%;
+  }
+}
