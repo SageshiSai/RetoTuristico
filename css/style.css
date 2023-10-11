@@ -228,7 +228,7 @@ footer div img {
 
 /*FORM QUERY*/
 
-@media only screen and (max-width:1245px) {
+@media only screen and (max-width:1400px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -239,6 +239,7 @@ footer div img {
   }
   .dentro {
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
 }
