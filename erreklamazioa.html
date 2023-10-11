@@ -16,69 +16,90 @@
     <!-- NAVBAR -->
     <!-- FORMULARIOA -->
     <div class="container mt-5 col-6">
-        <h1 class="mb-4">Erreklamazio Formularioa</h1>
-        <form action="#" id="formularioa" method="get">
-            <div class="row">
-                <div class="mb-3 col-12 col-sm-6 col-lg-3">
-                    <label for="exampleFormControlInput1" class="form-label">Izena:</label>
-                    <input type="text" class="form-control" id="izena" name="izenaf">
-                </div>
-                <div class="mb-3 col-12 col-sm-6 col-lg-3">
-                    <label for="exampleFormControlInput1" class="form-label">Abizena:</label>
-                    <input type="text" class="form-control" id="abizena" name="abizenaf">
-                </div>
-                <div class="mb-3 col-12 col-lg-6">
-                    <label for="exampleFormControlInput1" class="form-label">Helbide elektronikoa:</label>
-                    <input type="email" name="emailf" class="form-control" id="email" placeholder="name@example.com">
-                </div>
-            </div>
-            <label class="mb-3">Aukeratu sexua: </label>
-            <div class="container-fluid mb-3">
-                <div class="row">
-                    <div class="form-check col-12 col-md-4">
-                        <input class="form-check-input" type="radio" name="sexua" id="gizona" value="gizona">
-                        <label class="form-check-label" for="exampleRadios1">Gizona</label>
-                    </div>
-                    <div class="form-check col-12 col-md-4">
-                        <input class="form-check-input" type="radio" name="sexua" id="emakumea" value="emakumea">
-                        <label class="form-check-label" for="exampleRadios2">Emakumea</label>
-                    </div>
-                    <div class="form-check col-12 col-md-4">
-                        <input class="form-check-input" type="radio" name="sexua" id="beste" value="beste">
-                        <label class="form-check-label" for="exampleRadios3">Beste bat</label>
-                    </div>
-                </div>
-            </div>
-            <label class="mb-3">Zerekin duzu arazoa? </label>
-            <div class="container-fluid mb-3">
-                <div class="row">
-                    <div class="form-check col-12 col-md-4">
-                        <input class="form-check-input" type="radio" name="arazoa" id="orria" value="orria">
-                        <label class="form-check-label">Orriaren diseinuarekin</label>
-                    </div>
-                    <div class="form-check col-12 col-md-4">
-                        <input class="form-check-input" type="radio" name="arazoa" id="erosketa" value="erosketa">
-                        <label class="form-check-label">Erosketa batekin</label>
-                    </div>
-                    <div class="form-check col-12 col-md-4">
-                        <input class="form-check-input" type="radio" name="arazoa" id="beste" value="beste">
-                        <label class="form-check-label">Beste bat</label>
-                    </div>
-                </div>
-            </div>
-            <div class="my-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Idatzi hemen erreklamazioa:</label>
-                <textarea class="form-control" id="texto" rows="3" name="textareaf"></textarea>
-            </div>
-            <div class="row mb-3">
-                <div class="col-6">
-                    <button type="button" id="ezabatu" class="btn btn-primary float-start">Ezabatu</button>
-                </div>
-                <div class="col-6">
-                    <button type="submit" id="bidali" class="btn btn-primary float-end" disabled>Bidali</button>
-                </div>
-            </div>
+        
+        <form action="" id="formularioa">
+            <div class="container">
+                <div class="card boligrafo">
+                    <p class="singup">Erreklamazioa</p>
+                    
+                    <div class="dentro">
+                        <div class="izquierda">
+                            <div class="inputBox">
+                                <input type="text" required="required">
+                                <span>Izena</span>
+                            </div>
+                
+                            <div class="inputBox">
+                                <input type="password" required="required">
+                                <span>Abizena</span>
+                            </div>
             
+                            <div class="inputBox1">
+                                <input type="text" required="required">
+                                <span class="user">Email-a</span>
+                            </div>
+                        </div>
+        
+                        <div class="derecha">
+                            <p style="font-size: 10px;" class="singup">Sexua</p>
+    
+                            <div class="customCheckBoxHolder">
+    
+                                <input class="customCheckBoxInput" id="cCB1" type="radio" name="sexo">
+                                <label class="customCheckBoxWrapper" for="cCB1">
+                                    <div class="customCheckBox">
+                                        <div class="inner">Gizona</div>
+                                    </div>
+                                </label>
+                            
+                                <input class="customCheckBoxInput" id="cCB2" type="radio" name="sexo">
+                                <label class="customCheckBoxWrapper" for="cCB2">
+                                    <div class="customCheckBox">
+                                        <div class="inner">Emakumea</div>
+                                    </div>
+                                </label>
+                            
+                                <input class="customCheckBoxInput" id="cCB3" type="radio" name="sexo">
+                                <label class="customCheckBoxWrapper" for="cCB3">
+                                    <div class="customCheckBox">
+                                        <div class="inner">Beste bat</div>
+                                    </div>
+                                </label>
+                            </div>
+    
+                            <p style="font-size: 10px;" class="singup">Zerekin Daukazu Arazoa?</p>
+    
+                            <div class="customCheckBoxHolder">
+    
+                                <input class="customCheckBoxInput" id="cCB4" type="radio" name="arazoa">
+                                <label class="customCheckBoxWrapper" for="cCB4">
+                                    <div class="customCheckBox">
+                                        <div class="inner">Orriaren diseinuarekin</div>
+                                    </div>
+                                </label>
+                            
+                                <input class="customCheckBoxInput" id="cCB5" type="radio" name="arazoa">
+                                <label class="customCheckBoxWrapper" for="cCB5">
+                                    <div class="customCheckBox">
+                                        <div class="inner">Erosketa Batekin</div>
+                                    </div>
+                                </label>
+                            
+                                <input class="customCheckBoxInput" id="cCB6" type="radio" name="arazoa">
+                                <label class="customCheckBoxWrapper" for="cCB6">
+                                    <div class="customCheckBox">
+                                        <div class="inner">Beste bat</div>
+                                    </div>
+                                </label>
+                            </div>
+    
+                        </div> 
+                    </div>
+    
+    
+                    <button class="enter">Bidali</button>
+                </div>
+            </div>
         </form>
     </div>
     <!-- FORMULARIOA -->
