@@ -46,21 +46,21 @@
     
                             <div class="customCheckBoxHolder">
     
-                                <input class="customCheckBoxInput" id="gizona" type="radio" name="sexo">
+                                <input class="customCheckBoxInput" id="gizona" type="radio" name="sexua">
                                 <label class="customCheckBoxWrapper" for="gizona">
                                     <div class="customCheckBox">
                                         <div class="inner">Gizona</div>
                                     </div>
                                 </label>
                             
-                                <input class="customCheckBoxInput" id="emakumea" type="radio" name="sexo">
+                                <input class="customCheckBoxInput" id="emakumea" type="radio" name="sexua">
                                 <label class="customCheckBoxWrapper" for="emakumea">
                                     <div class="customCheckBox">
                                         <div class="inner">Emakumea</div>
                                     </div>
                                 </label>
                             
-                                <input class="customCheckBoxInput" id="beste" type="radio" name="sexo">
+                                <input class="customCheckBoxInput" id="beste" type="radio" name="sexua">
                                 <label class="customCheckBoxWrapper" for="beste">
                                     <div class="customCheckBox">
                                         <div class="inner">Beste bat</div>
@@ -97,11 +97,18 @@
                         </div> 
                     </div>
                     <div class="textarea">
-                        <textarea id="texto"rows="4" cols="50" name="comment" form="usrform" placeholder="escribe aqui"></textarea>
+                        <textarea id="texto" rows="4" cols="50" name="comment" form="usrform" placeholder="escribe aqui"></textarea>
                     </div>
                     
-    
-                    <button class="enter">Bidali</button>
+                    <div class="row">
+                        <div class="col-6">
+                            <button id="ezabatu" class="enter">Ezabatu</button>
+                        </div>
+                        <div class="col-6">
+                            <button id="bidali" class="enter" disabled>Bidali</button>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </form>

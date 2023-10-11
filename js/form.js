@@ -8,7 +8,9 @@ document.getElementById("email").addEventListener("keypress", function (event) {
 });
 document.querySelector("form").addEventListener("keyup", aktibatu);
 document.querySelector("form").addEventListener("click", aktibatu);
-document.getElementById("ezabatu").addEventListener("click", ezabatu)
+document.getElementById("ezabatu").addEventListener("click", ezabatu);
+document.getElementById("bidali").addEventListener("click", bidali);
+
 
 function ezabatu() {
     document.getElementById("formularioa").reset();
@@ -60,4 +62,7 @@ function aktibatu() {
     else {
         botoia.removeAttribute("disabled");
     }
+}
+function bidali() {
+    alert("Eskerrik asko formularioa betetzeagatik");
 }
