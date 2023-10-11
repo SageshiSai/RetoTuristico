@@ -226,7 +226,27 @@ footer div img {
 
 
 
+/*FORM QUERY*/
 
+@media only screen and (max-width:1245px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .boligrafo {
+    display: flex;
+    flex-direction: column;
+  }
+  .dentro {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
-
-
+@media only screen and (max-width:600px) {
+  .izquierda {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
