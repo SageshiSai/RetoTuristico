@@ -14,6 +14,7 @@ document.getElementById("bidali").addEventListener("click", bidali);
 
 function ezabatu() {
     document.getElementById("formularioa").reset();
+    document.getElementById("texto").value="";
 }
 function comprobaremail(e) {
     var email = document.getElementById("email").value;
