@@ -59,9 +59,11 @@ function aktibatu() {
 
     if ((korreo.length == 0) || (testua.length == 0) || izena.length == 0 || abizena.length == 0 || !radiochecked() || !cheboxcheched()) {
         botoia.setAttribute("disabled", true);
+        botoia.classList.add("disabled");
     }
     else {
         botoia.removeAttribute("disabled");
+        botoia.classList.remove("disabled");
     }
 }
 function bidali() {
