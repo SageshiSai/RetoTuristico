@@ -154,6 +154,7 @@ li :hover {
 /*FOOTER STYLE*/
 
 footer {
+  padding-top: 3%;
   height: 350px;
   background-color: #333;
 }
@@ -176,14 +177,19 @@ footer div img {
   height: 50px;
 }
 
+
 .containerr {
   position: relative;
   width: 250px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  background-color: #333;
 }
 
+#helloda {
+  background-color: #333;
+}
 .containerr button {
   width: 50px;
   height: 50px;
@@ -193,7 +199,7 @@ footer div img {
   cursor: pointer;
 }
 
-.icon {
+.icon1 {
   width: 26px;
   height: 26px;
   fill: #fff;
@@ -240,10 +246,39 @@ footer div img {
   }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:767px) {
   .izquierda {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
+
+  
+  .containerr {
+    position: relative;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    translate: 5%;
+  }
+  
+  .title {
+    color: gray;
+    font-weight: 700;
+    font-size: 17px;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    translate: 35%;
+  }
+
+  .contactos {
+    background-color: #333;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    
+  }
+
+
 }
