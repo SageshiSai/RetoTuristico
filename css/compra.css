@@ -157,11 +157,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 36px;
   }
   
   .icon svg {
     width: 24px;
-    height: 24px;
+    height: 48px;
+    
   }
   
   .button:hover {
