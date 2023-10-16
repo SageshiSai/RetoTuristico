@@ -199,6 +199,12 @@ footer div img {
   fill: #fff;
 }
 
+.icon1 {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+}
+
 .containerr button:nth-child(1):hover {
   background-color: #2753a7;
 }
