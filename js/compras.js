@@ -8,6 +8,28 @@ document.querySelectorAll(".hover-btn").forEach((hb) => {
 document.getElementById("entadults").addEventListener("keyup", calcularprecio);
 document.getElementById("entkids").addEventListener("keyup", calcularprecio);
 
+document.getElementById("entadults").addEventListener("keypress", function (event){
+    if (comprobarnumeros(event) == false){
+        event.preventDefault();
+    }
+});
+
+document.getElementById("entkids").addEventListener("keypress", function (event){
+    if (comprobarnumeros(event) == false){
+        event.preventDefault();
+    }
+});
+
+function comprobarnumeros(e){
+    if (e.key < 48 || e.key > 57){
+        return true;
+    }
+    else{
+        alert("Zenbakiak bakarrik sartu ahal dira");
+        return false;
+    }
+}
+
 function erakutsi() {
     document.getElementById("erosketak").style.display = "block";
     document.getElementById("erosketak").scrollIntoView({behavior: "smooth"});
